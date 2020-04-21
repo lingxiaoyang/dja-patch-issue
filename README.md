@@ -39,6 +39,10 @@ Type "help", "copyright", "credits" or "license" for more information.
 ```
 </details>
 
+The testing endpoint is either:   
+http://localhost:8000/articles/1/relationships/tags/ or   
+http://localhost:8000/tags/1/relationships/articles/
+
 
 <details>
   <summary>First, GET the relationship endpoint and verify the data is empty</summary>
