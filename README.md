@@ -22,7 +22,7 @@ Tag.objects.create()
 <details>
   <summary>Proof</summary>
 
-<pre>
+```
 $ docker-compose run web ./manage.py shell
 Python 3.8.2 (default, Apr 16 2020, 18:25:46)
 [GCC 8.3.0] on linux
@@ -36,7 +36,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> Tag.objects.all()
 <QuerySet [<Tag: id=1>]>
 >>>
-</pre>
+```
 </details>
 
 
